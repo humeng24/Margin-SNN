@@ -1,0 +1,10 @@
+advertorch
+scikit-learn
+matplotlib
+tqdm
+seaborn
+numpy
+pandas
+pymongo
+prettytable
+MulticoreTSNE
