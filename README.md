@@ -2,7 +2,7 @@
 
 
 
-This repository is an PyTorch implementation of the Margin-SNN. The paper has been accepted by Neural Networks.
+This repository is a PyTorch implementation of the Margin-SNN. The paper has been accepted by Neural Networks.
 
 ## reqarements
 - Ubuntu 16.04.7
