@@ -149,13 +149,30 @@ Recommended robustness evaluation metrics:
 
 ---
 
-## 📊 Experimental Results Template
+## 📊 Experimental Results 
 
-| Method            | Clean Acc | FGSM | PGD-20 | PGD-100 | CW | AutoAttack |
-| ----------------- | --------- | ---- | ------ | ------- | -- | ---------- |
-| Standard Training | --        | --   | --     | --      | -- | --         |
-| AT Baseline       | --        | --   | --     | --      | -- | --         |
-| Margin-SNN        | --        | --   | --     | --      | -- | --         |
+| Defense method | Backbone | AT | Clean | PGD |
+|----------------|----------|----|-------|-----|
+| RSE (2018) (Liu et al., 2018) | ResNext | ✗ | 87.5 | 40.0 |
+| DP (2019) (Cohen et al., 2019) | WideResNet-28-10 | ✗ | 87.0 | 25.0 |
+| TRADES (2019) (Zhang, Yu, Jiao et al., 2019) | ResNet-18 | ✓ | 84.9 | 56.6 |
+| PCL (2019) (Mustafa et al., 2019) | ResNet-110 | ✓ | 91.9 | 46.7 |
+| PNI (2019) (He et al., 2019) | ResNet-20 (4x) | ✓ | 87.7 | 49.1 |
+| Adv-BNN (2019) (Liu et al., 2019) | VGG-16 | ✓ | 77.2 | 54.6 |
+| L2P (2020) (Jeddii et al., 2020) | ResNet-18 | ✓ | 85.3 | 56.3 |
+| MART (2020) (Wang et al., 2020) | ResNet-18 | ✓ | 83.0 | 55.5 |
+| BPFC (2020) (Addepalli et al., 2020) | ResNet-18 | ✗ | 82.4 | 41.7 |
+| RLFLAT (2020) (Song et al., 2020) | WideResNet-32-10 | ✓ | 82.7 | 58.7 |
+| MI (2020) (Pang, Xu, & Zhu, 2020) | ResNet-50 | ✗ | 84.2 | 64.5 |
+| MMC (2020) (Pang, Xu et al., 2020) | ResNet-32 | ✓ | 81.8 | 56.3 |
+| SADS (2020) (Vivek & Venkatesh Babu, 2020) | WideResNet-28-10 | ✗ | 82.0 | 45.6 |
+| WCA-Net (2021) (Eustratiadis et al., 2021) | ResNet-18 | ✗ | 93.2 | 71.4 |
+| MFDV-SNN (2022) (Yang et al., 2022) | ResNet-18 | ✗ | 93.7 | 79.6 |
+| AT-AWP (2020) (Wu et al., 2020) | PreAct ResNet-18 | ✓ | 84.8 | 63.3 |
+| MLCAT-wp (2022) (Yu et al., 2022) | PreAct ResNet-18 | ✓ | 85.1 | 66.0 |
+| **Margin-SNN (Ours)** | **ResNet-18** | **✗** | **93.7** | **89.8** |
+
+**Note:** ✓ means the model is learned by adversarial training and ✗ means the model is learned by standard training. Data with gray background is cited from the literature (Eustratiadis et al., 2021; Pang, Xu et al., 2020; Yang et al., 2022).
 
 ---
 
