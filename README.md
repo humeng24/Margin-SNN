@@ -20,6 +20,9 @@
 This repository provides the official PyTorch implementation of **Margin-SNN**, proposed in:
 
 > **Ran Wang, Haopeng Ke, Meng Hu, Wenhui Wu**, Adversarially Robust Neural Networks with Feature Uncertainty Learning and Label Embedding, *Neural Networks*, Volume **172**, Article **106087**, April 2024.
+> ## 📄 Paper Link
+>- [Neural Networks (Official Publication)](https://www.sciencedirect.com/science/article/pii/S0893608023007487?via%3Dihub)
+
 
 Margin-SNN introduces a robust adversarial learning framework that jointly integrates:
 
