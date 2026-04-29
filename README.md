@@ -1,5 +1,3 @@
-# README.md
-
 # Margin-SNN: Adversarially Robust Neural Networks with Feature Uncertainty Learning and Label Embedding
 
 <div align="center">
