@@ -203,4 +203,12 @@ We sincerely thank:
 * Adversarial Machine Learning Researchers
 
 
+---
 
+## 📬 Contact
+
+**Meng Hu**
+>  - 🌐 Address: Shenzhen University, Shenzhen, Guangdong, China
+>  - 📧 Email: humeng@szu.edu.cn
+>  - 💻 Research Interests: Adversarial Training, Robust Learning, Uncertainty Information Processing
+>  - 📄 GitHub: https://github.com/humeng24
